@@ -1,23 +1,38 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Dependencies
+markdown:             redcarpet
+highlighter:          pygments
+
+# Permalinks
+permalink:            pretty
+relative_permalinks:  false
 
 # Site settings
-title: rhythm of rein
-email: reinhardt.cgr@gmail.com
+title:                rhythm of rein
+tagline:              'Decide to vibe with the process'
+email:                reinhardt.cgr@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Decide that you want it more than you fear it.
   Enjoy the process.
   FOCUS WITH INTENSITY
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://reinhardtcgr.github.io/" # the base hostname & protocol for your site
-twitter_username: rhythmofrein
-github_username:  reinhardtcgr
-linkedin_username:  reinhardtcagara
-salutations: "\"Before you can change the world around you, you must learn to change the worlds within you\""
+baseurl:              "" # the subpath of your site, e.g. /blog
+url:                  "http://reinhardtcgr.github.io/" # the base hostname & protocol for your site
+
+twitter_username:     rhythmofrein
+github_username:      reinhardtcgr
+linkedin_username:    reinhardtcagara
+salutations:          "\"Before you can change the world around you, you must learn to change the worlds within you\""
 
 # Build settings
-markdown: kramdown
+markdown:             kramdown
+
+author:
+  name:               'Mark Otto'
+  url:                https://twitter.com/mdo
+
+# paginate:             5
+
+# Custom vars
+version:              2.1.0
+
+github:
+  repo:               https://github.com/poole/hyde

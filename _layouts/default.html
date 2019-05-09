@@ -2,13 +2,16 @@
 <html>
     {% include head.html %}
     <body>
-        <img id="adventure" src="{{ site.url }}/assets/adventure.jpg"/>
-        {% include header.html %}
-        <div class="page-content">
-            <div class="wrapper">
-                {{ content }}
-            </div>
+        {% include sidebar.html %}
+        <!-- <img id="adventure" src="{{ site.url }}/assets/adventure.jpg"/> -->
+        <!-- {% include header.html %} -->
+        <!-- <div class="page-content"> -->
+            <!-- <div class="wrapper"> -->
+        <div class="content container">
+            {{ content }}
         </div>
-        {% include footer.html %}
+            <!-- </div> -->
+        <!-- </div> -->
+        <!-- {% include footer.html %} -->
     </body>
 </html>
