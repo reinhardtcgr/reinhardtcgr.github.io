@@ -1,6 +1,6 @@
 ---
 layout: page
-title: reinhardt
+title: About
 permalink: /about/
 ---
 
